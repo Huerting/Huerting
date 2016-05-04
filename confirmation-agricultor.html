@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=620">
+  <link rel="stylesheet" type="text/css" href="css/confirmation.css" media="all">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Huerting - Confirmacion</title>
+  <link href='https://fonts.googleapis.com/css?family=Merriweather:400,700|Raleway:400,300,700,300italic|Roboto+Slab' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Merriweather:400,700,900' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="normalize.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  </head>
+  <body>
+
+<!--Header desktop-->
+  <div class="header">
+    <div class="top-header">
+          <div class="menu-button-container1"><a href="register.html"><strong>Regístrate</strong></a></div>
+          <div class="menu-button-container2"><a href="login.html">Accede</a></div>
+    </div>
+    <div class="bottom-header">
+    <a class="logo" href="index.html"></a>
+
+      <nav class="header-buttons">
+          <div><a href="listado.html">Huertos</a></div>
+          <div><a href="contact.html">Contacto</a></div>
+          <div><a href="about.html">Sobre nosotros</a></div>
+          <div><a href="faqs.html">ayuda</a></div>
+      </nav>  
+
+      <div class="publish-desktop">
+      <a class="btn-header" href="register-agricultor-step1.html">Publica tu huerto</a>   
+      </div>
+    </div>
+  </div>
+
+<!--Header mobile-->
+<div class="header-mobile">
+ <div class="top-header-mobile">
+   <div class="open-menu">
+   </div>
+   <div class="mobile-menu-container">
+  <ul>
+      <li>
+        <a href="listado.html">Huertos</a>
+      </li>  
+      <li>
+        <a href="register.html">Regístrate</a>
+      </li> 
+      <li>
+        <a href="login.html">Accede</a>
+      </li>  
+      <li>
+        <a href="contact.html">Contacto</a>
+      </li>  
+      <li>
+        <a href="about.html">Sobre nosotros</a>
+      </li> 
+      <li>
+        <a href="faqs.html">Ayuda</a>
+      </li> 
+     </ul> 
+  </div>
+  <div class="logo-mobile">
+  </div>
+  <div class="close-menu">
+  </div>
+</div>
+<div class="publish-mobile">
+  <a class="btn-header" href="register-agricultor-step1.html">Publica tu Huerto</a>     
+ </div>
+</div>
+
+ 
+<div class="confirmation-container">
+	<div class="text">
+		<p>¡Muchas gracias por compartir tu huerto!</p>
+    <p>Nuestro equipo validará tu perfil antes de 24h y se pondrá en contacto contigo..</p>
+    <p>¡Te deseamos una gran experiencia!</p>
+		<div class="boton-confirmation">
+		<a class="boton-volver" href="index.html">VOLVER A LA PAGINA PRINCIPAL</a>
+	 </div>
+	</div>
+</div>
+</body>
+<footer>
+
+  <div class="logo_footer"
+    <a href=""><IMG SRC="img/huerting.svg"></a>
+  </div>
+  
+  <div class="texto_footer">
+
+    <div class="redes_sociales">
+      <a href="https://www.facebook.com/"><IMG SRC="img/facebook.svg"></a>
+      <a href="https://plus.google.com/"><IMG SRC="img/googlep.svg"></a>
+      <a href="https://www.instagram.com/"><IMG SRC="img/instagram.svg"></a>
+      <a href="https://es.pinterest.com/"><IMG SRC="img/pinterest.svg"></a>
+    </div>
+    <div class="aviso_legal">
+
+        <a href="">Aviso legal</a>
+        <p>Copyright 2016 ©Todos los derechos reservados</p>
+
+    </div>
+
+        <div class="direccion">
+          <p>C/Pujades, 118 08005 Barcelona</p>
+          <p>Telf.: +34 93 415 34 74</p>
+        </div>
+
+    </div>
+  </footer> 
+<script type="text/javascript">
+  $('.open-menu').click(function(){
+  var menu = $('.mobile-menu-container');
+   menu.show();
+   $('.close-menu').show();
+   $('.open-menu').hide();
+   $('.publish-mobile').hide();
+   $('.top-header-mobile').css( "border-bottom", "none" );
+   $('.logo-mobile').hide();   
+   $('.top-header-mobile').addClass('top-header-mobile-background'); 
+   
+ });
+
+
+ $('.close-menu').click(function(){
+    var menu = $('.mobile-menu-container');
+   menu.hide();
+   $('.close-menu').hide();
+   $('.open-menu').show();
+   $('.publish-mobile').show();
+   $('.top-header-mobile').css( "border-bottom", "solid 1px rgba(160,131,59, 100)" ); 
+   $('.logo-mobile').show();  
+   $('.top-header-mobile').removeClass('top-header-mobile-background');  
+ });
+
+ $(window).resize(function(){
+  if($(window).width() > 991)
+  {
+    $('.close-menu').hide();
+    $('.open-menu').hide(); 
+  } else {
+    $('.open-menu').show();     
+  }
+ })
+</script>
+
+</html>
