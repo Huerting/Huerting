@@ -1001,22 +1001,18 @@ footer p {
 footer{
 
     height: 100px;
-    width: 100%;
+    width: 70%;
   
 }
 
 .logo_footer img{
-max-widith: 150px;
     height: 40px;
 }
 
 footer img{
-
-
-    
     display: flex;
     justify-content: flex-start;
-    margin-left: 20px;
+   
 }
 
 .direccion{
