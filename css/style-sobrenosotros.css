@@ -1,12 +1,11 @@
 *{
  margin:0px;   
 }
-body{
-font-family: 'Raleway', sans-serif;
-}
+
+
 
 /* TITLES */
-h1, h2, h3, h4, h5, h6, label, input, div, p, a {
+h1, h2, h3, h4, h5, h6, label, input, p, a {
   font-family: 'Raleway' sans-serif;
 }
 h1, h2{
@@ -806,7 +805,7 @@ color:#AC9251;
 @media all and (min-width: 1024px){
 	
 	.contenedor-portada{
-	    background-image: url(img/cabecera1.png);
+	    background-image: url(../img/cabecera4.png);
 		background-size: cover;
 		background-repeat: no-repeat;
        height: 300px;
