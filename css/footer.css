@@ -1,0 +1,174 @@
+/*------FOOTER---------*/
+
+footer{
+	font-family: 'Raleway', sans-serif;
+	border-top: 2px solid #AC9251 ;
+	background-color: white;
+	font-size: 14pt;
+	
+	height: 20vh;
+	width: 100%;
+}
+
+.logo_footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.logo_footer img{
+
+
+	width: 50%;
+	height: 50%;
+	margin-top: 20px;
+}
+
+footer p {
+	margin-left: 40px;
+}
+
+.redes_sociales{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 1em;
+	
+	
+}
+.redes_sociales img{
+	width: 44px;
+	margin: 10px;
+}
+.direccion{
+	display: none;
+}
+
+/*----------------------------- TABLET--------------------------------*/
+
+@media screen and (min-width: 768px){
+
+.texto{
+	
+	font-size: 16pt;
+	
+}
+
+
+
+/*------FOOTER TABLET---------*/
+
+footer a img{
+
+	width: 20%;
+	height: 20%;
+	display: flex;
+	justify-content: flex-start;
+}
+
+footer p {
+	margin: 10px;
+
+}
+.redes_sociales{
+	display: flex;
+	justify-content: flex-end;
+
+
+}
+
+.aviso_legal{
+	
+	width: 50%;
+	margin-top:-80px;
+	margin-left: 15px;
+
+
+}
+
+.aviso_legal a {
+	display:flex;
+	justify-content: flex-start;
+	margin: 10px;
+
+}
+
+.logo_footer{
+	display: flex;
+	justify-content: flex-start;
+	
+}
+.logo_footer img{
+
+
+	width: 30%;
+	height: 30%;
+	margin-top: 20px;
+}
+
+
+
+}
+
+
+/*----------------------------- DESKTOP--------------------------------*/
+
+@media screen and (min-width: 900px){
+
+.texto{
+	
+	font-size: 18pt;
+
+	
+}
+
+/*------FOOTER DESCKTOP---------*/
+
+footer img{
+
+	max-width: 300px;
+	width: 10%;
+	height: 10%;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.direccion{
+
+	display: block;
+	margin-top: 3rem;
+
+
+
+}
+.aviso_legal{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 31%;
+	margin-top: 10px;
+
+	
+
+
+}
+
+.texto_footer{
+	
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	margin-top: 0.5rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+}
+.redes_sociales{
+	margin-top: 3rem;
+
+
+}
+
+}
