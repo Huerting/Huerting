@@ -12,7 +12,7 @@
 	flex-direction: column;
 	justify-content: space-between;
 	margin: 0px;
-	padding-top: 20px;
+	
 
 }
 
@@ -72,7 +72,7 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	margin-bottom: 30px;
+	
 }
 
 .mobile-menu-container{
@@ -203,7 +203,7 @@
 	/*Tablet*/
 
 	.header {
-		margin-bottom: 30px;
+		
 		display: flex;
 	}
 
@@ -358,7 +358,7 @@
 
 
 	.header {
-		margin-bottom: 30px;
+	
 	}
 
 	.header ul{
