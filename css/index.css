@@ -349,10 +349,7 @@ font-family:'Raleway';
 
 
 @media only screen and (min-width: 1024px) {
-	.header {
-          border-bottom: solid 1px rgba(160,131,59, 100);
-	}
-	
+
 
 	.header ul{
 		display: flex;
