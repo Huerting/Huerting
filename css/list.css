@@ -1,0 +1,313 @@
+
+body{
+margin: 0px;
+}
+
+
+
+/*LISTADO HUERTOS*/
+
+
+	.list-page{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	.p-headline{
+		font-family: 'Raleway';
+		font-size: 1rem;
+		line-height: 1.5rem;
+	}
+
+.adlist-container{
+	margin: 30px 0px;
+}
+
+.ad{
+	border: none;
+	margin-bottom: 30px;
+
+}
+
+.ad-photo{
+	border: none;
+	background-image: url('../img/ficha_huerto.jpg');
+	background-size: cover;
+	width: 100%;
+	height: 230px;
+}
+
+.ad-photo2{
+	border: none;
+	background-image: url('../img/fotohuerto1.png');
+	background-size: cover;
+	width: 100%;
+	height: 230px;
+}
+.ad-photo3{
+	border: none;
+	background-image: url('../img/fotohuerto2.png');
+	background-size: cover;
+	width: 100%;
+	height: 230px;
+}
+.ad-photo4{
+	border: none;
+	background-image: url('../img/fotohuerto3.png');
+	background-size: cover;
+	width: 100%;
+	height: 230px;
+}
+.ad-photo5{
+	border: none;
+	background-image: url('../img/im-3.jpeg');
+	background-size: cover;
+	width: 100%;
+	height: 230px;
+}
+.ad-photo6{
+	border: none;
+	background-image: url('../img/im-2.jpeg');
+	background-size: cover;
+	width: 100%;
+	height: 230px;
+}
+
+.ad-photo6{
+	border: none;
+	background-image: url('../img/foto3.jpg');
+	background-size: cover;
+	width: 100%;
+	height: 230px;
+}
+.ad-photo7{
+	border: none;
+	background-image: url('../img/contacto-big.jpeg');
+	background-size: cover;
+	width: 100%;
+	height: 230px;
+}
+.ad-photo8{
+	border: none;
+	background-image: url('../img/foto1m.jpg');
+	background-size: cover;
+	width: 100%;
+	height: 230px;
+}
+.ad-photo9{
+	border: none;
+	background-image: url('../img/maiz.png');
+	background-size: cover;
+	width: 100%;
+	height: 230px;
+}
+
+
+.price{
+	margin:70px 0 0 0;
+	background-color: gray;
+	color:white;
+	height: 30px;
+	padding: 20px;
+	font-size: 1.2rem;
+	font-family: 'Raleway';
+
+}
+
+.ad-headline{
+	border: none;
+	height: 90px;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin: 20px;
+	border-bottom: solid 1px rgba(160,131,59, 100);;
+}
+
+.ad-where{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+}
+
+.icon-where{
+	padding-right: 10px;
+}
+
+.ad-perks{
+	padding-right: 10px;
+
+}
+
+.list-header{
+	margin: 20px 20px;
+	padding: 0px;
+}
+
+.btn-normal{
+	padding: 10px 20px;
+	background-color: white;
+	color: #955251;
+	font-family: 'Raleway';
+	font-size: 14px;
+	border: solid 1px #955251;
+	margin: 20px 0px;
+	text-transform: uppercase;
+}
+
+.btn-full-screen{
+	width: 100%;
+}
+
+.ad-filter{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.show-map, .hide-map{
+	display: flex;
+	justify-content: flex-start;
+	margin-left: 30px;
+}
+
+.hide-map{
+	display: none;
+
+}
+
+.map-container{display: none;
+margin-right: 20px;}
+
+.precio1{
+	background-color: black;
+	height: 40px;
+	width: 70px;
+	color:white;
+	font-size: 1.7rem;
+	text-align: center;
+	font-family: 'Raleway';
+
+
+
+
+}
+
+
+@media only screen and (min-width: 600px) {
+         .header {
+          border-bottom: solid 2px rgba(160,131,59, 100);
+	}
+
+	.list-page{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	/*Tablet*/
+
+	.adlist-container{
+		margin: 30px 50px;
+		float: left;
+	}
+
+	.ad{
+		border: solid 1px gray;
+		height: 320px;
+		width: 230px;
+		margin-bottom: 30px;
+
+	}
+
+	.ad-photo{
+		background-image: url('../img/ad-img2.jpeg');
+		height: 230px;
+	}
+
+	.ad-headline{
+		height: 90px;
+		padding: 10px;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		margin: 0px;
+		border-bottom: none;
+	}
+
+	.ad-where{
+		display: flex;
+		flex-direction: row;
+		align-items: flex-end;
+	}
+
+	.icon-where{
+		padding-right: 10px;
+	}
+
+	.aad-perks{
+
+	}
+
+	.list-header{
+		margin: 20px 50px;
+		padding: 0px;
+	}
+
+}
+
+
+
+
+@media only screen and (min-width: 768px) {
+	/*Desktop*/
+
+	
+
+	.list-page{
+		display: flex;
+		flex-direction: row;
+	}
+
+	.adlist-container{
+		margin: 0px;
+	}
+
+	.ad{
+		float: left;
+		border: solid 1px rgba(160,131,59, 100);
+		height: 350px;
+		width: 230px;
+		margin: 0px 30px 50px 30px;
+
+	}
+
+	.ad-photo{
+		background-image: url('../img/ad-img2.jpeg');
+		height: 230px;
+	}
+
+
+	.ad-headline{
+		height: 120px;
+		padding: 10px;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+
+	.ad-where{
+		display: flex;
+		flex-direction: row;
+		align-items: flex-end;
+	}
+
+	.icon-where{
+		padding-right: 10px;
+	}
+
+	.ad-perks{
+
+	}
+
+}
