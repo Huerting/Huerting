@@ -617,55 +617,53 @@ a {
 
 
 
-  /* _______________CABECERA__________________________ */
-
+  /* _______________MOVIL__________________________ */
 
 
 .cabecera-portada  h1{
-
-    color: #9f504e;
-    text-align: center;
-
+color: #9f504e;
+text-align: center;
 }
 
 .contenedor-portada p{
-    display: none;
-
+display: none;
 }
 
-@media screen and (min-width: 36rem) {
-    .cabecera-portada h1{
-   
-    padding-top: 70px;
-    color: #9f504e;
-    
+  /* _______________TABLET__________________________ */
 
+@media screen and (min-width: 678px){
+.cabecera-portada h1{
+padding-top: 70px;
+color: #9f504e;
 }
 }
+
+/* _______________DESKTOP__________________________ */
+
 @media all and (min-width: 1024px){
-   .contenedor-portada{
-        background-image: url(../img/cabecera2.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 200px;
-        margin-top: -30px;
-       
-        
-    }
-    .cabecera-portada h1{
-        text-align: center;
-        padding-top: 70px;
-    color: #FFFFFF;
-    }
-     .cabecera-portada p{
-    display: flex;
-  margin-left: 20rem;
-  padding-right: 20rem;
-  padding-top: 5px;
-  padding-bottom: 10%;
-  color: #FFFFFF;
-  text-align: center;
-  }
+.contenedor-portada{
+background-image: url(../img/cabecera2.png);
+background-size: cover;
+background-repeat: no-repeat;
+height: 200px;
+margin-top: -30px;
+}
+
+.cabecera-portada h1{
+text-align: center;
+padding-top: 70px;
+color: #FFFFFF;
+}
+
+.cabecera-portada p{
+display: flex;
+margin-left: 20rem;
+padding-right: 20rem;
+padding-top: 5px;
+padding-bottom: 10%;
+color: #FFFFFF;
+text-align: center;
+}
 }
 
 
@@ -673,31 +671,34 @@ a {
 
 
 .accordion{
-
   width: 80%;
  font-size: 16pt;
   margin-right: 10%;
   margin-left: 10%;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  
+  margin-top: 5rem;
+  margin-bottom: 5rem;
   height: 50%;
 }
 @media screen and (min-width: 768px){
   .accordion{
      font-size: 18pt;
   }
+
+.contenedor-portada2{
+    background-image: url(../img/cabecera3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    margin-top: -30px;
+      
+  }
+
+
 }
-
-
-
 
 
 /*------A PARTIR DE AQUI PERTENECE AL JAVASCRIP---------*/
 
-
-/* esto es el acordeón en java.*/
-@import url('http://fonts.googleapis.com/css?family=Pacifico|Open+Sans:300,400,600');
 
 a {
   text-decoration: none;
@@ -738,8 +739,7 @@ ul li {
 ul li a.toggle {
   width: 100%;
   display: block;
-  
-  color: #A5873D;
+  color: #955251;
   padding: .75em;
   border-radius: 0.15em;
   transition: background .3s ease;
@@ -781,22 +781,17 @@ footer p {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin: 10px;
-  
-  
-}
+  margin: 10px;}
 
 .aviso_legal{
   text-align: center;
   font-size: 10pt;
   width: 100%;
-  }
+}
 
-
-  .aviso_legal a{
-    color:#955251;
-
-    }
+.aviso_legal a{
+color:#955251;
+ }
 
 .redes_sociales img{
   width: 44px;
@@ -891,8 +886,8 @@ footer{
 font-size: 16pt;
   height: 100px;
   width: 100%;
-
 }
+
 
 .logo_footer img{
 
@@ -900,9 +895,6 @@ font-size: 16pt;
 }
 
 footer img{
-
-
-    
   display: flex;
   justify-content: flex-start;
   margin-left: 20px;
@@ -912,10 +904,8 @@ footer img{
 
   display: block;
   margin-top: 5px;
-
-
-
 }
+
 .aviso_legal{
 
   display: flex;
@@ -925,10 +915,6 @@ footer img{
   width: 25%;
   margin-top: 0;
   font-size: 14pt;
-
-  
-
-
 }
 
 .texto_footer{
@@ -944,8 +930,6 @@ footer img{
 }
 .redes_sociales{
   margin-top: 2rem;
-
-
 }
 
 }
