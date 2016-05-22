@@ -7,9 +7,7 @@ font-family: 'Raleway', sans-serif;
 }
 
 /* TITLES */
-h1, h2, h3, h4, h5, h6, label, input, div, p, a {
-  font-family: 'Raleway' sans-serif;
-}
+
 h1, h2{
   text-transform: uppercase;
   font-weight: 600;
@@ -28,7 +26,7 @@ h1 {
   line-height: 1.2;
 }
 @media all and (min-width: 768px) {
-  h1{5
+  h1{
     font-size: 3.5rem;  
   }
 }
@@ -112,10 +110,6 @@ a {
     font-size: 1rem;
   }
 }
-
-
-
-
 
 
 
@@ -567,8 +561,6 @@ a {
 
 	}
 
-
-
 	.menu-desktop{
 		display: flex;
 		background-color: green;
@@ -576,7 +568,6 @@ a {
 		border: none;
 		color: white;
 		text-align: center;
-		font-family: "Arial";
 		flex-basis:100%;
 	}
 
@@ -622,181 +613,159 @@ a {
 
 
 
-	/* _______________CABECERA__________________________ */
-
-
+	/* _______________MOVIL__________________________ */
 
 
 .header-portada  h1{
-	font-family: 'Raleway';
-	margin-top: 20px;
-     color: #9f504e;
-	text-align: center;
-
+font-family: 'Raleway';
+margin-top: 20px;
+color: #9f504e;
+text-align: center;
 }
 
 .header-portada p{
-	display: none;
+display: none;
 
 }
 /* _______________descripciones__________________________ */
-.descripcion1{
 
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	margin-top: 2rem;
-	margin-bottom: 2rem;
+.descripcion1{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin-top: 2rem;
+margin-bottom: 2rem;
 }
 .descripcion2{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	margin-bottom: 2rem; 
-	margin-top: 2rem;
-	padding-right: 5px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin-bottom: 2rem; 
+padding-right: 5px;
+padding-top: 2rem;
 }
 
 .nombre_text1{
-	
-	display: flex;
-	flex-direction: column;
-	text-align: center;
-
-	
-
+display: flex;
+flex-direction: column;
+text-align: center;
 }
+
 .nombre_text2{
-	
-	display: flex;
-	flex-direction: column;
-	text-align:center;
-	
-
-
+display: flex;
+flex-direction: column;
+text-align:center;
 }
+
 .foto{
-	background-color: #F0F0F0;
-	width: 8rem;
-	border-radius: 50%;
-	
+background-color: #F0F0F0;
+width: 8rem;
+border-radius: 50%;
 }
 
+.servicios{
+background-color: #f5f2eb;
+width: 100%;
+height: 700px;
+}
 
+.servicios p{
+padding-top: 20px;
+margin-left: 5px;
+margin-right: 5px;
+}
 
 .nombre_text1 h4{
-	padding-top: 15px;
+padding-top: 15px;
 color:#AC9251;
-	
 }
-
 
 .nombre_text2 h4{
-	
-	color:#AC9251;
-	padding-top: 15px;
-	
-	
+color:#AC9251;
+padding-top: 15px;	
 }
 
-	/* _______________TABLET__________________________ */
+ @media all and (min-width: 500px){
+ .servicios{
+height: 550px;
+}
+}
+/* _______________TABLET__________________________ */
 
 
+@media all and (min-width: 678px){
 
-@media all and (min-width: 500px){
-	.header-portada h1{
-		padding-top: 70px;
- 	color: #9f504e;
+.header-portada h1{
+padding-top: 70px;
+color: #9f504e;
+}
 
- }
 .header-portada p{
-	display: none;
-
+display: none;
 }
-.general{
-	margin-right: 1%;
-	margin-left: 1%;
 
-}
+/* _______________descripciones__________________________ */
+
 .descripcion1{
-	
-	display: flex;
-	margin-right: 30%;
-	flex-direction: row-reverse;
-	width: 80%;
-   margin-bottom: 2rem;
-
-
+display: flex;
+margin-right: 30%;
+margin-left: 10%;
+flex-direction: row-reverse;
+width: 80%;
+margin-bottom: 2rem;
 }
+
 .descripcion2{
-	
-	display: flex;
-	margin-right: 30%;
-	flex-direction: row;
-	width: 80%;
-	margin-bottom: 2rem; 
+display: flex;
+margin-right: 30%;
+margin-left: 10%;
+flex-direction: row;
+width: 80%;
+margin-bottom: 2rem; 
 }
 
 .texto1{
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-    margin-bottom: 1rem; 
-	text-align: right;
-
-
+display: flex;
+justify-content: center;
+flex-direction: column;
+margin-bottom: 1rem; 
+text-align: left;
 }
 
 .texto2{
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	margin-bottom: 1rem; 
-	text-align: left;
-
-	
-
+display: flex;
+justify-content: center;
+flex-direction: column;
+margin-bottom: 1rem; 
+text-align: left;
 }
 
-	
-
 .nombre_text1{
-	display: flex;
-	justify-content: flex-start;
-	margin-right: 10%;
-	
-
+display: flex;
+justify-content: flex-start;
+margin-right: 10%;	
 }
 
 .nombre_text1 h4{
-	
-
 color:#AC9251;
-	
-
 }
 
 .nombre_text2{
-	
-	display: flex;
-	justify-content: flex-start;
-	margin-left: 10%;
-	margin-top: 10px;
-	
+display: flex;
+justify-content: flex-start;
+margin-left: 10%;
+margin-top: 10px;	
 }
-
-
-
 
 .nombre_text2 h4{
-
-	
-	color:#AC9251;
-	
-	
+color:#AC9251;	
 }
+.servicios{
+height: 530px;
+}
+
 }
 
 
@@ -805,73 +774,61 @@ color:#AC9251;
 	
 @media all and (min-width: 1024px){
 	
-	.contenedor-portada{
-	    background-image: url(../img/cabecera4.png);
-		background-size: cover;
-		background-repeat: no-repeat;
-       height: 300px;
-        margin-top: -30px;
-	    
-	}
-	 .header-portada h1{
-	 padding-top: 70px;
- 	 color: #FFFFFF;
-    }
-     .header-portada p{
-     	text-align: center;
-     display: block;
-	margin-left: 30%;
-	margin-right: 30%;
-	margin-bottom: 10%
-    padding-top: 5px;
-	
-	color: #FFFFFF;
-	
-
-    
+.contenedor-portada1{
+background-image: url(../img/cabeceralimones.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+height: 300px;
+margin-top: -30px;
 }
 
+.header-portada h1{
+padding-top: 50px;
+color: #FFFFFF;
+}
+
+.header-portada p{
+text-align: center;
+display: block;
+margin-left: 30%;
+margin-right: 30%;
+margin-bottom: 10%
+padding-top: 5px;	
+color: #FFFFFF;   
+}
+
+.servicios{
+height: 450px;
+}
 .foto{
-	height: 9rem;
-	width: 9rem;
-	border-radius: 50%;
-	margin: 1rem auto -1rem;
+width: 8rem;
+border-radius: 50%;
+margin: 1rem auto -1rem;
 }
-
 
 .nombre_text1{
-	
-	margin-right: 10%;
-	
-
-	
+margin-right: 10%;	
 }
 
 .nombre_text1 h4{
-	padding-bottom: 10px;
-  color:#AC9251;
-  text-align: right;
-	
+padding-bottom: 10px;
+color:#AC9251;
+text-align: right;	
 }
-
 
 .nombre_text2{
-	
-	margin-left: 10%;
-	
-	
+margin-left: 10%;
 }
+
 .nombre_text2 h4{
-	
-	color:#AC9251;
-	padding-bottom: 10px;
-	text-align: left;
+color:#AC9251;
+padding-bottom: 10px;
+text-align: left;
 }
 	
-.general{
-	margin-right: 10%;
-	margin-left: 20%;	
-	
+.about-container{
+margin-top: 8rem;
+margin-bottom: 8rem;
 }
 	
 }
