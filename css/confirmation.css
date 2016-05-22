@@ -4,6 +4,113 @@
 margin:0;
 }
 
+/* TITLES */
+h1, h2, h3, h4, h5, h6, label, input, p, a {
+  font-family: 'Raleway';
+}
+h1, h2{
+  text-transform: uppercase;
+  font-weight: 600;
+}
+h3, h4 {
+  font-weight: 400;
+}
+h5, h6 {
+  font-weight: 200;
+}
+
+/* H1 */
+h1 {
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  line-height: 1.2;
+}
+@media all and (min-width: 768px) {
+  h1{5
+    font-size: 3.5rem;  
+  }
+}
+@media all and (min-width: 1024px) {
+  h1{
+    font-size: 4rem;  
+  }
+}
+/* H2 */
+h2 {
+    font-size: 2rem;
+
+}
+@media all and (min-width: 768px) {
+  h2{
+    font-size: 2.5rem;
+  }
+}
+@media all and (min-width: 1024px) {
+  h2{
+    font-size: 3rem;
+  }
+}
+/* H3 */
+h3 {
+    font-size: 1.5rem;
+   
+}
+@media all and (min-width: 768px) {
+  h3{
+    font-size: 2rem;
+  }
+}
+@media all and (min-width: 1024px) {
+  h3{
+    font-size: 2.5rem;
+  }
+}
+/* H4, H5, H6 */
+h4, h5, h6 {
+  font-size: 1rem;
+}
+@media all and (min-width: 768px) {
+  h4, h5, h6{
+    font-size: 1.2em;
+  }
+}
+@media all and (min-width: 1024px) {
+  h4, h5, h6{
+    font-size: 1.4em;
+  }
+}
+/* TEXT ELEMENTS */
+p {
+  font-size: 0.8rem;
+  line-height: 1.75rem;
+}
+@media all and (min-width: 768px) {
+  p {
+    font-size: 1rem;
+  }
+  }
+
+@media all and (min-width: 1024px) {
+  p{
+    font-size: 1rem;
+  }
+}
+
+a {
+  font-size: 0.8rem;
+  line-height: 1.75rem;
+}
+@media all and (min-width: 768px) {
+  a {
+    font-size: 1rem;
+  }
+  }
+@media all and (min-width: 1024px) {
+  a{
+    font-size: 1rem;
+  }
+}
+
 
 /*HEADER*/
 
@@ -577,57 +684,53 @@ align-items: center;
 }
 
 
-/*------FOOTER movil---------*/
-
 footer{
-	font-family: 'Raleway', sans-serif;
-	border-top: 2px solid #AC9251 ;
+  font-family: 'Raleway', sans-serif;
+  border-top: 1px solid #AC9251 ;
 
-	font-size: 14pt;
-	
-	height: 250px;
-	width: 100%;
+  font-size: 14pt;
+  height: 150px;
+  width: 100%;
 
 }
 
 .logo_footer{
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .logo_footer img{
-	margin-top: 20px;
-	height: 50px;
+  margin-top: 10px;
+  height: 50px;
 
 }
 
 footer p {
-	margin-left: 40px;
+  margin-left: 40px;
 }
 
 .redes_sociales{
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	margin: 1em;}
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px;}
 
 .aviso_legal{
-	text-align: center;
-	font-size: 10pt;
-	width: 100%;
+  text-align: center;
+  font-size: 10pt;
+  width: 100%;
 }
-
 
 .aviso_legal a{
 color:#955251;
-}
+ }
 
 .redes_sociales img{
-	width: 44px;
-	margin: 10px;
+  width: 44px;
+  margin: 10px;
 }
 .direccion{
-	display: none;
+  display: none;
 }
 
 /*----------------------------- TABLET--------------------------------*/
@@ -635,10 +738,11 @@ color:#955251;
 @media screen and (min-width: 768px){
 
 .texto{
-	
-font-size: 16pt;
-	
+  
+  font-size: 16pt;
+  
 }
+
 
 
 /*------FOOTER TABLET---------*/
@@ -647,46 +751,49 @@ font-size: 16pt;
 
 footer a img{
 
-	height: 35px;
-	display: flex;
-	justify-content: flex-start;
+  height: 35px;
+  display: flex;
+  justify-content: flex-start;
 }
 
 footer p {
-	margin: 10px;
+  margin: 10px;
 
 }
 .redes_sociales{
-	display: flex;
-	justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .aviso_legal{
-	
-	width: 50%;
-	margin-top:-80px;
-	margin-left: 15px;
-	font-size: 12pt;
+  
+  width: 50%;
+  margin-top:-80px;
+  margin-left: 15px;
+  font-size: 12pt;
+
+
 }
 
 .aviso_legal a {
-	display:flex;
-	justify-content: flex-start;
-	margin: 10px;
+  display:flex;
+  justify-content: flex-start;
+  margin: 10px;
 
 }
 
 .logo_footer{
-	display: flex;
-	justify-content: flex-start;
-	
+  display: flex;
+  justify-content: flex-start;
+  
 }
 .logo_footer img{
 
-	margin-top: 10px;
-	
-	height: 40px;
+  margin-top: 10px;
+  
+  height: 40px;
 }
+
 
 
 }
@@ -697,63 +804,64 @@ footer p {
 @media screen and (min-width: 960px){
 
 .texto{
-	
-	font-size: 18pt;
+  
+  font-size: 16pt;
 
-	
+  
 }
 
 /*------FOOTER DESCKTOP---------*/
 
 footer{
-	
-	height: 250px;
+
+ border-top: 1px solid #AC9251 ;
+font-size: 16pt;
+  height: 100px;
+  width: 100%;
 }
+
 
 .logo_footer img{
 
-	height: 100px;
+  height: 40px;
 }
 
 footer img{
-
-display: flex;
-justify-content: flex-start;
-margin-left: 20px;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 20px;
 }
 
 .direccion{
 
-	display: block;
-	margin-top: 3rem;
-
+  display: block;
+  margin-top: 5px;
 }
+
 .aviso_legal{
 
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	width: 31%;
-	margin-top: 0;
-	font-size: 14pt;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 25%;
+  margin-top: 0;
+  font-size: 14pt;
 }
 
 .texto_footer{
 
-	display: flex;
-	flex-direction: row-reverse;
-	justify-content: space-between;
-	margin-top: 0.5rem;
-	margin-left: 1rem;
-	margin-right: 1rem;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 }
 .redes_sociales{
-	margin-top: 3rem;
-
-
+  margin-top: 2rem;
 }
 
 }
