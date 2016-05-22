@@ -664,7 +664,7 @@ body{
   text-align: center;
   
 }
-         iframe{
+iframe{
     display:none;
 }
 
@@ -677,7 +677,6 @@ body{
 
 .form{
     display: block;
-    margin-top: 2em;
     margin-left: 10%;
 }
 
@@ -739,45 +738,35 @@ iframe{
 
 
 @media screen and (min-width: 36rem) {
+    
     .cabecera-portada h1{
-   padding-top: 70px;
+    padding-top: 70px;
     color: #9f504e;
-    
-
-}
-
-.adress{
-    
-    border-right: 3px solid #955251;
-   
-     
-  }
-
-
-.contact-form {
-    border-left: 1px solid #ccc;
-    float: right;
-    padding-left: 2%;
-    width: 20%;
-  }
-
-
-    .register-container{
-        margin: 50px;
-
-        display: flex;
-       align-items: center;
-       background-color: #FFFFFF;
-      
-
     }
 
-.form{
-        
+    .adress{
+    border-right: 3px solid #955251;
+    }
+
+
+    .contact-form {
+        border-left: 1px solid #ccc;
+        float: right;
+        padding-left: 2%;
+        width: 20%;
+    }
+
+    .register-container{
+       margin: 20px 50px 70px 50px;
+       display: flex;
+       align-items: center;
+       background-color: #FFFFFF;
+    }
+
+    .form{
         margin-left: 40px;
         margin-right: 20px;
         width: 60%;
-       
     }
 
     label{
@@ -826,41 +815,37 @@ iframe{
         height: 90px;
     }
 
-        iframe{
+    iframe{
     display:block;
-    margin-top: 120px;
+    margin-top: 90px;
     width: 80%;
     height: 80%;
     margin-left: 1rem;
-
-
-
-}
+    }
 
 }
 
 
-/* desktop-----------------------------------*/
+/* ----------desktop-----------------------------------*/
 
 
 @media all and (min-width: 1024px){
 
    .contenedor-portada{
-      
-        background-image: url(../img/cabeceralimones.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-       height: 300px;
-       margin-top: -30px;
-       
-        
+    background-image: url(../img/cabecera4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    margin-top: -30px;
     }
+
     .cabecera-portada h1{
-        text-align: center;
-        padding-top: 70px;
-       color: #FFFFFF;
+    text-align: center;
+    padding-top: 30px;
+    color: #FFFFFF;
     }
-     .cabecera-portada p{
+     
+    .cabecera-portada p{
     display: block;
     text-align: center;
     margin-left: 25%;
@@ -868,30 +853,27 @@ iframe{
     padding-top: 5px;
     padding-bottom: 5px;
     color: #FFFFFF;
-}   
+    }   
 
-
-iframe{
+    iframe{
     display:block;
-     width: 40%;
+    width: 40%;
     height: 60%;
     padding-left: 60%;
+    }
 
-}
-.adress{
+    .adress{
     padding-top:5px;
     padding-right: 40px;
     text-align: right;
     width: 50%;
-     
-  }
+    }
 }
 /*------FOOTER movil---------*/
 
 footer{
     font-family: 'Raleway', sans-serif;
     border-top: 2px solid #AC9251 ;
-
     font-size: 14pt;
     height: 150px;
     width: 100%;
@@ -906,7 +888,6 @@ footer{
 .logo_footer img{
     margin-top: 10px;
     height: 50px;
-
 }
 
 footer p {
@@ -917,25 +898,19 @@ footer p {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 10px;
-    
-    
+    margin: 10px;   
 }
 
 .aviso_legal{
     text-align: center;
     font-size: 10pt;
-
-    
-    
     width: 100%;
     }
 
 
-    .aviso_legal a{
-        color:#955251;
-
-        }
+.aviso_legal a{
+color:#955251;
+}
 
 .redes_sociales img{
     width: 44px;
@@ -1020,7 +995,7 @@ footer p {
 
 .texto{
     
-    font-size: 16pt;
+font-size: 16pt;
 
     
 }
@@ -1028,11 +1003,8 @@ footer p {
 /*------FOOTER DESCKTOP---------*/
 
 footer{
-
- 
-
-    height: 100px;
-    width: 100%;
+height: 100px;
+width: 100%;
   
 }
 
