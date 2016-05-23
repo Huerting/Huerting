@@ -1,0 +1,219 @@
+
+/* TITLES */
+h1, h2, h3, h4, h5, h6, label, input, p, a {
+  font-family: 'Raleway';
+}
+h1, h2{
+  text-transform: uppercase;
+  font-weight: 600;
+}
+h3, h4 {
+  font-weight: 400;
+}
+h5, h6 {
+  font-weight: 200;
+}
+
+/* H1 */
+h1 {
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  line-height: 1.2;
+  @media screen and (min-width: $tablet-width) {
+   font-size: 3.5rem;  
+  }
+  @media screen and (min-width: $desktop-width) {
+    font-size: 4rem;  
+  }
+
+}
+
+/* H2 */
+h2 {
+    font-size: 2rem;
+    @media screen and (min-width: $tablet-width) {
+    font-size: 2.5rem;
+  }
+    @media screen and (min-width: $desktop-width) {
+    font-size: 3rem;
+  }
+
+}
+
+/* H3 */
+h3 {
+    font-size: 1.5rem;
+     @media screen and (min-width: $tablet-width) {
+    font-size: 2rem;
+  }
+    @media screen and (min-width: $desktop-width) {
+    font-size: 2.5rem;
+  }
+   
+}
+
+/* H4, H5, H6 */
+h4, h5, h6 {
+  font-size: 1rem;
+     @media screen and (min-width: $tablet-width) {
+    font-size: 1.2rem;
+  }
+    @media screen and (min-width: $desktop-width) {
+    font-size: 1.4rem;
+  }
+}
+
+/* TEXT ELEMENTS */
+p {
+  font-size: 0.8rem;
+  line-height: 1.75rem;
+       @media screen and (min-width: $tablet-width) {
+    font-size: 1rem;
+  }
+    @media screen and (min-width: $desktop-width) {
+    font-size: 1rem;
+  }
+}
+
+a {
+  font-size: 0.8rem;
+  line-height: 1.75rem;
+         @media screen and (min-width: $tablet-width) {
+    font-size: 1rem;
+  }
+    @media screen and (min-width: $desktop-width) {
+    font-size: 1rem;
+  }
+}
+
+
+
+
+  /* _______________CABECERA__________________________ */
+
+
+
+.cabecera-portada  h1{
+
+    color: #9f504e;
+    text-align: center;
+
+}
+
+.contenedor-portada p{
+    display: none;
+
+}
+
+@media screen and (min-width: 36rem) {
+    .cabecera-portada h1{
+   
+    padding-top: 70px;
+    color: #9f504e;
+    
+
+}
+}
+@media all and (min-width: 1024px){
+   .contenedor-portada{
+        background-image: url(../img/cabecera2.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 200px;
+        margin-top: -30px;
+       
+        
+    }
+    .cabecera-portada h1{
+        text-align: center;
+        padding-top: 70px;
+    color: #FFFFFF;
+    }
+     .cabecera-portada p{
+    display: flex;
+  margin-left: 20rem;
+  padding-right: 20rem;
+  padding-top: 5px;
+  padding-bottom: 10%;
+  color: #FFFFFF;
+  text-align: center;
+  }
+}
+
+
+  /* _______________Acordion__________________________ */
+
+
+.accordion{
+
+  width: 80%;
+ font-size: 16pt;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  
+  height: 50%;
+}
+@media screen and (min-width: 768px){
+  .accordion{
+     font-size: 18pt;
+  }
+}
+
+
+
+
+
+/*------A PARTIR DE AQUI PERTENECE AL JAVASCRIP---------*/
+
+
+/* esto es el acordeón en java.*/
+@import url('http://fonts.googleapis.com/css?family=Pacifico|Open+Sans:300,400,600');
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+p {
+  font-size: 1.1em;
+  margin: 1em 0;
+}
+.description {
+  margin: 1em auto 2.25em;
+}
+body {
+  width: 100%;
+  color: #333;
+}
+h1 {
+  
+  font-weight: 400;
+  font-size: 2.5em;
+	text-align: center;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+ul .inner {
+  padding-left: 1em;
+  overflow: hidden;
+  display: none;
+}
+ul .inner.show {
+  display: block;
+}
+ul li {
+  margin: .5em 0;
+}
+ul li a.toggle {
+  width: 100%;
+  display: block;
+  
+  color: #A5873D;
+  padding: .75em;
+  border-radius: 0.15em;
+  transition: background .3s ease;
+}
+
