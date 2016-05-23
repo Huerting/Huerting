@@ -678,14 +678,15 @@ body{
 .form{
     display: block;
     margin-top: 2em;
-    margin-left: 10%;
+    a;
 }
 
 
 label{
     font-family: 'Raleway';
     font-size: 1rem;
-    margin-top: 2rem; 
+    margin-top: 2rem;
+    align-items:center;
 }
 
 input, textarea{
