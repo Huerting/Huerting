@@ -1,11 +1,10 @@
-/*------FOOTER---------*/
-
 footer{
 	font-family: 'Raleway', sans-serif;
 	border-top: 2px solid #AC9251 ;
 	background-color: white;
 	font-size: 14pt;
-	
+	text-align: center;
+	align-items: center;
 	height: 20vh;
 	width: 100%;
 }
@@ -18,27 +17,23 @@ footer{
 .logo_footer img{
 
 
-	width: 50%;
-	height: 50%;
-	margin-top: 20px;
-}
-
-footer p {
-	margin-left: 40px;
+	width: 150px;
+	margin-top: 10px;
 }
 
 .redes_sociales{
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	margin: 1em;
+	margin: 10px;
 	
 	
 }
 .redes_sociales img{
-	width: 44px;
-	margin: 10px;
+	width: 35px;
+	margin-left: 10px;
 }
+
 .direccion{
 	display: none;
 }
@@ -47,48 +42,36 @@ footer p {
 
 @media screen and (min-width: 768px){
 
-.texto{
-	
-	font-size: 16pt;
-	
-}
-
-
-
-/*------FOOTER TABLET---------*/
-
-footer a img{
-
-	width: 20%;
-	height: 20%;
-	display: flex;
-	justify-content: flex-start;
-}
-
 footer p {
 	margin: 10px;
 
 }
+
+
 .redes_sociales{
 	display: flex;
 	justify-content: flex-end;
+	padding-right: 10%;
+	
 
 
 }
 
-.aviso_legal{
+.aviso_legal {
 	
 	width: 50%;
-	margin-top:-80px;
-	margin-left: 15px;
+	margin-top:-75px;
+	margin-left: 25px;
 
 
 }
 
 .aviso_legal a {
-	display:flex;
-	justify-content: flex-start;
-	margin: 10px;
+	
+   width: 50%
+	margin-top:10px;
+	
+	
 
 }
 
@@ -100,9 +83,9 @@ footer p {
 .logo_footer img{
 
 
-	width: 30%;
-	height: 30%;
+	width: 15%;
 	margin-top: 20px;
+	padding-left: 10%;
 }
 
 
@@ -114,45 +97,15 @@ footer p {
 
 @media screen and (min-width: 900px){
 
-.texto{
+
+.logo_footer img{
 	
-	font-size: 18pt;
-
 	
+	margin-top: 20px;
+	padding-left: 20px;
 }
 
-/*------FOOTER DESCKTOP---------*/
 
-footer img{
-
-	max-width: 150px;
-	width: 10%;
-	height: 10%;
-	display: flex;
-	justify-content: flex-start;
-}
-
-.direccion{
-
-	display: block;
-	margin-top: 3rem;
-
-
-
-}
-.aviso_legal{
-
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	width: 31%;
-	margin-top: 10px;
-
-	
-
-
-}
 
 .texto_footer{
 	
@@ -162,11 +115,33 @@ footer img{
 	margin-top: 0.5rem;
 	margin-left: 1rem;
 	margin-right: 1rem;
+	margin-bottom: 0.25rem;
+	margin-top: .25rem;
 }
 
+.direccion{
+
+	display: block;
+	margin-top: .25rem;
+   margin-left: 15px;
+
+
 }
+.aviso_legal{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 35%;
+	margin-top: 0.25rem;
+}
+
+
 .redes_sociales{
-	margin-top: 3rem;
+	
+	padding-right: 25px;
+	
 
 
 }
