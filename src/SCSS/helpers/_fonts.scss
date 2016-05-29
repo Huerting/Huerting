@@ -1,0 +1,82 @@
+
+/* TITLES */
+body{
+  font-family: 'Raleway';
+}
+
+h1, h2{
+  text-transform: uppercase;
+  font-weight: 600;
+}
+h3, h4 {
+  font-weight: 400;
+}
+h5, h6 {
+  font-weight: 200;
+}
+
+/* H1 */
+h1 {
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  line-height: 1.2;
+  @media screen and (min-width: $tablet-width) {
+   font-size: 3.5rem;  
+ }
+ @media screen and (min-width: $desktop-width) {
+  font-size: 4rem;  
+}
+
+}
+
+/* H2 */
+h2 {
+  font-size: 2rem;
+  @media screen and (min-width: $tablet-width) {
+    font-size: 2.5rem;
+  }
+  @media screen and (min-width: $desktop-width) {
+    font-size: 3rem;
+  }
+
+}
+
+/* H3 */
+h3 {
+  font-size: 1.5rem;
+  @media screen and (min-width: $tablet-width) {
+    font-size: 2rem;
+  }
+  @media screen and (min-width: $desktop-width) {
+    font-size: 2.5rem;
+  }
+
+}
+
+/* H4, H5, H6 */
+h4, h5, h6 {
+  font-size: 1rem;
+  @media screen and (min-width: $tablet-width) {
+    font-size: 1.2rem;
+  }
+  @media screen and (min-width: $desktop-width) {
+    font-size: 1.4rem;
+  }
+}
+
+/* TEXT ELEMENTS */
+p {
+  font-size: 0.8rem;
+  line-height: 1.75rem;
+  @media screen and (min-width: $tablet-width) {
+    font-size: 1rem;
+  }
+}
+
+a {
+  font-size: 0.8rem;
+  line-height: 1.75rem;
+  @media screen and (min-width: $tablet-width) {
+    font-size: 1rem;
+  }
+}
