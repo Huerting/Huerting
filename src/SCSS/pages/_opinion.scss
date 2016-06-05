@@ -1,0 +1,56 @@
+// Product opinions
+
+.product-opinions, .product-opinion{
+    margin: 20px;
+}
+
+.product-opinion{
+    margin: 20px; 
+    display: flex;
+    flex-direction:row;
+}
+
+.product-opinion-text-container{
+    margin: 0 20px; 
+
+}
+
+.product-opinion-img-1, .product-opinion-img-2{
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-width: 60px;
+    min-height: 60px;
+    @media screen and (min-width: $tablet-width) {
+    min-width: 100px;
+    min-height: 100px;
+    }
+}
+
+.product-opinion-img-1{
+    background-image: url('../img/mujer-02.png');
+}
+
+.product-opinion-img-2{
+    background-image: url('../img/hombre-01.png');
+}
+
+.product-opinion-grade{
+    color: $col-marsala-text;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
+.product-opinion-grade, .product-opinion-username, .product-opinion-text{
+    margin: 10px;
+}
+
+.product-opinion-username{
+    font-weight: bold;
+    margin-top: 0px;
+    font-size: 1.2rem;
+}
+
+
+
+// END Product opinions

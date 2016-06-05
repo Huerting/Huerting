@@ -1,33 +1,19 @@
-	.header-portada  h1{
-		margin-top: 20px;
-		color: #9f504e;
-		text-align: center;
-		@media screen and (min-width: $tablet-width) {
-			padding-top: 70px;
-			color: #9f504e;
-		}
-		@media screen and (min-width: $desktop-width) {
-			padding-top: 70px;
-			color: #FFFFFF;
-		}
-
+//Contenedor del listado de nombres con fotos
+.about-container{
+	margin:20px;
+	margin-bottom: 50px;
+    @media screen and (min-width: $tablet-width) {
+	margin-right: 5%;
+	margin-left: 15%;	
 	}
-
-	.header-portada p{
-		display: none;
-		@media screen and (min-width: $desktop-width) {
-			text-align: center;
-			display: block;
-			margin-left: 30%;
-			margin-right: 30%;
-			margin-bottom: 10%;
-			padding-top: 5px;	
-			color: #FFFFFF;
-		}
+	@media screen and (min-width: $desktop-width) {
+	margin-right: 10%;
+	margin-left: 20%;	
 	}
-/* _______________descripciones__________________________ */
+}
 
-.descripcion1{
+//Contenedores de cada descripcion, con alineacion a la derecha o a la izquierda
+.about-description-right, .about-description-left{
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -35,126 +21,89 @@
 	margin-top: 2rem;
 	margin-bottom: 2rem;
 	@media screen and (min-width: $tablet-width) {
-		display: flex;
 		margin-right: 30%;
+		width: 80%;
+	}
+}
+
+.about-description-right{
+	@media screen and (min-width: $tablet-width) {
 		flex-direction: row-reverse;
-		width: 80%;
-		margin-bottom: 2rem;
-	}
-
+	}	
 }
-.descripcion2{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	margin-bottom: 2rem; 
-	margin-top: 2rem;
-	padding-right: 5px;
+
+.about-description-left{
 	@media screen and (min-width: $tablet-width) {
-		display: flex;
-		margin-right: 30%;
 		flex-direction: row;
-		width: 80%;
+	}	
+}
+
+//Contenedores  del texto de cada descripcion: nombre + texto
+.about-description-right-text, .about-description-left-text{
+	@media screen and (min-width: $tablet-width) {
+		margin-right: 20px;
 	}
 }
 
-.nombre_text1{
+.about-description-left-text{
+	@media screen and (min-width: $tablet-width) {
+		margin-left: 20px;
+	}
+}
+
+//La foto de cada persona
+.about-foto-ainhoa, .about-foto-alina, .about-foto-lucia, .about-foto-diana {
 	display: flex;
-	flex-direction: column;
+	align-items:flex-start;
+	max-height: 7rem;
+	max-width: 7rem;
+	min-height: 7rem;
+	min-width: 7rem;
+	background-repeat: no-repeat;
+	background-size: contain;
+	@media screen and (min-width: $tablet-width) {
+		max-height: 9rem;
+		max-width: 9rem;
+		min-height: 9rem;
+		min-width: 9rem;
+		margin: -1rem auto -1rem;
+	}
+}
+
+.about-foto-alina{
+	background-image: url('../img/Alina-profile.jpg');
+}
+
+.about-foto-ainhoa{
+	background-image: url('../img/Ainhoa-profile.jpg');
+}
+
+.about-foto-lucia{
+	background-image: url('../img/Lucia-profile.png');
+}
+
+.about-foto-diana{
+	background-image: url('../img/diana-profile.jpg');
+}
+
+
+//El nombre y la descripcion de cada persona
+
+.h4-about-right, .h4-about-left{
+	margin: 5px 0px;
 	text-align: center;
+}
+
+.h4-about-right, .p-about-right{
 	@media screen and (min-width: $tablet-width) {
-		display: flex;
-		justify-content: flex-start;
-		margin-right: 10%;
-	}
-	@media screen and (min-width: $desktop-width) {
-		margin-right: 10%;
-	}
-}
-
-.nombre_text2{
-	display: flex;
-	flex-direction: column;
-	text-align:center;
-	@media screen and (min-width: $tablet-width) {
-		display: flex;
-		justify-content: flex-start;
-		margin-left: 10%;
-		margin-top: 10px;
-	}
-	@media screen and (min-width: $desktop-width) {
-		margin-left: 10%;
-	}
-}
-
-.foto{
-	background-color: #F0F0F0;
-	width: 8rem;
-	border-radius: 50%;
-	@media screen and (min-width: $desktop-width) {
-		height: 9rem;
-		width: 9rem;
-		border-radius: 50%;
-		margin: 1rem auto -1rem;
-	}
-	
-}
-
-.nombre_text1 h4{
-	padding-top: 15px;
-	color:#AC9251;
-	@media screen and (min-width: $desktop-width) {
-		padding-bottom: 10px;
 		text-align: right;
-
 	}
 }
 
-.nombre_text2 h4{
-	color:#AC9251;
-	padding-top: 15px;
-	@media screen and (min-width: $desktop-width) {
-		padding-bottom: 10px;
+.h4-about-left, .p-about-left{
+	@media screen and (min-width: $tablet-width) {
 		text-align: left;
 	}
 
 }
-.texto1{
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	margin-bottom: 1rem; 
-	text-align: right;
-}
-
-.texto2{
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	margin-bottom: 1rem; 
-	text-align: left;
-}
-
-.texto{
-	font-size: 16pt;
-}
-
-.contenedor-portada{
-	background-image: url(../img/cabecera4.png);
-	background-size: cover;
-	background-repeat: no-repeat;
-	height: 300px;
-	margin-top: -30px;
-}
-
-.general{
-	margin-right: 10%;
-	margin-left: 20%;	
-}
-
-
-
-
-
 

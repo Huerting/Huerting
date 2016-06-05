@@ -1,0 +1,26 @@
+.breadcrumb {
+    display: flex;
+    justify-content:flex-start;
+    @media screen and (min-width: $desktop-width) {
+        margin-left: 30px;
+    }
+}
+
+.breadcrumb li {
+    display: inline;
+    padding-right: 5px;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $col-gold-text;
+    font-size: 0.8rem;
+    @media screen and (min-width: $tablet-width) {
+        font-size: 1rem;
+    }
+}
+
+.breadcrumb li+li:before {
+    content:"» ";
+}

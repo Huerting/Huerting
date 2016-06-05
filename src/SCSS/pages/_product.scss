@@ -1,170 +1,133 @@
-
-.title-huerto h2{
-    font-size: 2rem;
-}
-
-.precio h3{
-    font-size: 1.5rem;
-}
-
-p, a{
-    font-size: 0.9rem;
-    line-height: 2rem;
+//Product page container
+.product-page-container{
+    display: flex;
+    flex-direction:column;
+    margin: 0px;
     @media screen and (min-width: $tablet-width) {
-        font-size: 1rem;
-        line-height: 1.75rem;
-    }
-
-}
-
-.breadcrumb {
-    padding-left: 15px;
-    padding-bottom: 15px;
-    @media screen and (min-width: $desktop-width) {
-        margin-left: 30px;
-    }
-}
-
-.breadcrumb li {
-    display: inline;
-}
-
-.breadcrumb a {
-    text-decoration: none;
-    text-transform: uppercase;
-    color:#AC9251;
-    font-size: 0.8rem;
-    @media screen and (min-width: $tablet-width) {
-        font-size: 1rem;
-    }
-}
-
-.breadcrumb li+li:before {
-    content:"» ";
-}
-
-.precio{
-    text-align: center;
-}
-
-.title-huerto{
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 20px;
-    width: 300px;
-    text-align: center;
-    color:#9a4846;
-    @media screen and (min-width: $tablet-width) {
-        margin-top: 0;
-        width: 60%;
-        margin-left: 30%;
+    flex-direction:row;
     }
     @media screen and (min-width: $desktop-width) {
-        width: 70%;
+
+    }
+
+}
+//END Product page container
+
+//Product images
+.product-img-gallery{
+    display: flex;
+    @media screen and (min-width: $tablet-width) {
+    flex-direction: column;
+    flex-basis:45%;
+    }
+    @media screen and (min-width: $desktop-width) {
+    flex-basis:50%;
     }
 }
 
-.img1{
+.product-img-gallery-big{
+    margin: 0px;
     display: block;
-    width: 100%;
-    height: 100%;
+    background-image: url('../img/ficha_huerto.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+        width:99.5%;
+    height: 30vh;
     @media screen and (min-width: $tablet-width) {
-        float: left;
-        width: 42%;
-        height: 40%;
-        margin-right: 30px;
-    }
-
-}
-
-.img2{
-    display: none;
-    @media screen and (min-width: $tablet-width) {
-        display: block;
-        clear: left;
-        float: left;
-        width: 14%;
-        height: 13%;
-    }
-
-}
-
-.img3{
-    display: none;
-    @media screen and (min-width: $tablet-width) {
-        float: left;
-        display: block;
-        width: 14%;
-        height: 13%;
-    }
-}
-
-.img4{
-    display: none;
-    @media screen and (min-width: $tablet-width) {
-        float: left;
-        display: block;
-        width: 14%;
-        height: 13%;
-        margin-right: 30px;
-    }
-}
-
-.img{
-    margin-left: 30px;
-    margin-top: 20px;
-}
-
-
-.caracteristicas{
-    margin-top: 30px;
-    margin-left: 10%;
-    @media screen and (min-width: $tablet-width) {
-        margin-top: 13px;
-        justify-content: center;
+    height: 50vh;
+    margin-left: 2px;
+    margin-bottom: 2px;
     }
     @media screen and (min-width: $desktop-width) {
-        line-height: 4.5rem;
     }
+
 }
 
-.texto{
-    margin-top: 15px;
-    margin-left: 10%;
+.product-img-gallery-small-container{
+    display: none;
     @media screen and (min-width: $tablet-width) {
-        width: 60%;
-        margin-left: 20%;
-        margin-top: 40px;
+    flex-grow: 1;
+    height: 20vh;
+    display: flex;
     }
     @media screen and (min-width: $desktop-width) {
-        margin-top: 20px;
-        width: 70%;
-        margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
     }
-
 }
 
-iframe{
-    margin-bottom: 30px;
-    margin-left: 10%;
-    margin-right: 20%;
+.product-img-gallery-small{
     @media screen and (min-width: $tablet-width) {
-        width: 70%;
-        margin-left: 15%;
+        display: block;
+        flex-grow: 1;
+    }
+    &-1{
+        background-image: url('../img/ficha_huerto2.jpg');
+    }       
+    &-2{
+        background-image: url('../img/ficha_huerto3.jpg');
+    }
+    &-3{
+        background-image: url('../img/ficha_huerto4.jpg');
+    }
+    &-1, &-2, &-3,{
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 20vh;
+        width:33.35%;
+        margin: 2px;
+    }
+}
+
+//END Product images 
+
+// Product description
+
+.product-description{
+    padding: 20px;  
+    @media screen and (min-width: $tablet-width) {
+    padding: 0 20px;  
+    flex-basis:55%;
     }
     @media screen and (min-width: $desktop-width) {
-        margin-top: 50px;
-        margin-left: 10%;
-        height: 200px;
-        margin-bottom: 50px; 
+    flex-basis:50%;
+    padding-left: 30px;
+    }
+    &-price{
+    text-align: left;
+    @media screen and (min-width: $tablet-width) {
+        text-align: center;
+    }
+    @media screen and (min-width: $desktop-width) {
+        text-align: center;
     }
 }
+
+//END Product description
+
+// Rent button
+
+
+// END Rent button
+
+.product-btn-active{
+    background-color: $col-marsala-button;
+    color: white;
+    border: 1px $col-marsala-button;
+    height: 40px;
+    @media screen and (min-width: $tablet-width) {
+    }
+    @media screen and (min-width: $desktop-width) {
+     background-color: $col-marsala-button;
+    }
+}
+
 
 .btn-forma2{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #955251;
+    background-color: $col-marsala-button;
     color: white;
     font-family: 'Raleway';
     font-size: 0.9rem;
@@ -195,5 +158,6 @@ iframe{
     @media screen and (min-width: $desktop-width) {
         margin: 20px 150px 20px 250px;
     }
+}
 }
 

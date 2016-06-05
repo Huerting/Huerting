@@ -1,0 +1,47 @@
+	.subheader-container-faq{
+		background-image: url('../img/cabeceralimones.jpg');	
+	}
+
+	.subheader-container-about{
+		background-image: url('../img/cabecera4.png');	
+	}
+
+.subheader-container-about, .subheader-container-faq{
+		height: 250px;
+		background-size: cover;
+		background-repeat: no-repeat;
+		display: flex;
+		flex-direction:column;
+		justify-content: center;
+		padding: 20px;
+		@media screen and (min-width: $tablet-width) {
+			height: 300px;
+		}		
+}	
+
+	.h1-subheader{
+		color: $col-white;
+		text-align: center;
+		font-size: 1.2rem;
+		font-weight: 500;
+		@media screen and (min-width: $tablet-width) {
+			padding-top: 70px;
+			color: $col-white;
+			text-transform: uppercase;
+			font-size: 3rem;
+		}
+	}
+
+	.p-subheader{
+			text-align: center;
+			display: block;
+			color: $col-white;
+		@media screen and (min-width: $tablet-width) {
+			margin: 0px 150px;
+		}
+		@media screen and (min-width: $desktop-width) {
+			margin-left: 30%;
+			margin-right: 30%;
+		}
+	}
+
