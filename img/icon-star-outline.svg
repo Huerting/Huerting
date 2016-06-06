@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="15px" viewBox="0 0 16 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
+    <title>star-outline</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-Copy" sketch:type="MSArtboardGroup" transform="translate(-264.000000, -419.000000)" fill="#955251">
+            <g id="Product-desktop" sketch:type="MSLayerGroup" transform="translate(187.000000, 205.000000)">
+                <g id="Producto-Desktop" sketch:type="MSShapeGroup">
+                    <g id="Opinions" transform="translate(1.000000, 213.000000)">
+                        <g id="star-outline" transform="translate(76.190476, 1.142857)">
+                            <path d="M15.2380952,5.5192381 L9.7592381,5.04914286 L7.61904762,0 L5.47885714,5.04914286 L0,5.5192381 L4.15619048,9.1207619 L2.91047619,14.4761905 L7.61904762,11.6358095 L12.327619,14.4761905 L11.0819048,9.1207619 L15.2380952,5.5192381 L15.2380952,5.5192381 Z M7.61904762,10.2064762 L4.752,11.936 L5.51085714,8.67428571 L2.97904762,6.48152381 L6.31619048,6.19504762 L7.61904762,3.12 L8.92190476,6.19504762 L12.2590476,6.48152381 L9.728,8.67428571 L10.4868571,11.936 L7.61904762,10.2064762 L7.61904762,10.2064762 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
