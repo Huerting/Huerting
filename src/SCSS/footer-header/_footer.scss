@@ -1,5 +1,17 @@
+.footer-sticky {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.footer-sticky-content {
+  flex: 1;
+}
+
+
+
 footer{
-	border-top: 2px solid #AC9251 ;
+	border-top: 2px solid $col-gold-text;
 	background-color: white;
 	font-size: 14pt;
 	text-align: center;
@@ -8,17 +20,13 @@ footer{
 	width: 100%;
 }
 
-footer p {
-	@media screen and (min-width: $tablet-width) {
-		margin: 10px;
-	}
-}
 
-.texto_footer{
+.footer-bottom{
 	@media screen and (min-width: $desktop-width) {
 		display: flex;
 		flex-direction: row-reverse;
 		justify-content: space-between;
+		align-items:flex-start;
 		margin-left: 1rem;
 		margin-right: 1rem;
 		margin-bottom: 0.25rem;
@@ -26,82 +34,54 @@ footer p {
 	}
 }
 
-.logo_footer{
+.footer-logo{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	@media screen and (min-width: $tablet-width) {
+	@media screen and (min-width: $desktop-width) {
 		justify-content: flex-start;
 	}
 }
-.logo_footer img{
+.footer-logo img{
 	width: 150px;
 	margin-top: 10px;
-	@media screen and (min-width: $tablet-width) {
-		width: 15%;
-		margin-top: 20px;
-		padding-left: 10%;
-	}
 	@media screen and (min-width: $desktop-width) {
 		padding-left: 20px;
 	}
 }
 
-.redes_sociales {
+.footer-social {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	margin: 10px;
 	margin-bottom: 0px;
-	@media screen and (min-width: $tablet-width) {
-		justify-content: flex-end;
-		padding-right: 10%;
-	}
 	@media screen and (min-width: $desktop-width) {
 		padding-right: 25px;
 	}
 	
 }
-.redes_sociales img{
+.footer-social img{
 	width: 35px;
 	margin-left: 10px;
 }
 
-.direccion{
+.footer-text{
+	@media screen and (min-width: $desktop-width) {
+		display: block;
+		margin-top: .25rem;
+		margin-left: 1rem;
+	}
+}
+
+.footer-text-nomobile{
 	display: none;
 	@media screen and (min-width: $desktop-width) {
 		display: block;
-		justify-content:center;
-		margin-top: .25rem;
-		margin-left: 15px;
 	}
 }
 
-.aviso_legal {
-	@media screen and (min-width: $tablet-width) {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		width: 50%;
-		margin-top:-75px;
-		margin-left: 25px;
-	}
-	@media screen and (min-width: $desktop-width) {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		flex-direction: column;
-		width: 35%;
-		margin-top: 0.25rem;
-	}
-}
 
-.aviso_legal a {
-	@media screen and (min-width: $tablet-width) {
-		width: 50%;
-		margin-top:10px;
-	}
-}
 
 
 

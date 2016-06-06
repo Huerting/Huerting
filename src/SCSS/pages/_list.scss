@@ -112,6 +112,10 @@
 	}
 }
 
+.ad-headline:last-child{
+	border-bottom: none;
+}
+
 .ad-where{
 	display: flex;
 	flex-direction: row;

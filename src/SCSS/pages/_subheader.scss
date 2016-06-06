@@ -6,7 +6,7 @@
 		background-image: url('../img/cabecera4.png');	
 	}
 
-.subheader-container-about, .subheader-container-faq{
+	.subheader-container-about, .subheader-container-faq{
 		height: 250px;
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -17,8 +17,7 @@
 		@media screen and (min-width: $tablet-width) {
 			height: 300px;
 		}		
-}	
-
+	}	
 	.h1-subheader{
 		color: $col-white;
 		text-align: center;
@@ -33,9 +32,9 @@
 	}
 
 	.p-subheader{
-			text-align: center;
-			display: block;
-			color: $col-white;
+		text-align: center;
+		display: block;
+		color: $col-white;
 		@media screen and (min-width: $tablet-width) {
 			margin: 0px 150px;
 		}

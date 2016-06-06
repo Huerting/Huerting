@@ -1,0 +1,30 @@
+.index-infografia{
+	display: flex;
+	margin: 20px;
+	flex-direction: column;
+	align-items:center;
+	@media screen and (min-width: $tablet-width) {
+	flex-direction: row;
+	justify-content:space-around;
+    }
+}
+
+.index-infografia-item-1, .index-infografia-item-2, .index-infografia-item-3{
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 109px;
+	width: 219px;
+	margin:10px;
+}
+
+.index-infografia-item-1{
+	background-image: url('../img/infografia1.png');
+}
+
+.index-infografia-item-2{
+	background-image: url('../img/infografia2.png');
+}
+
+.index-infografia-item-3{
+	background-image: url('../img/infografia3.png');
+}

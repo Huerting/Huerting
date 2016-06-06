@@ -17,32 +17,27 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <!-- ======== / STANDARD SCRIPTS ======== -->
 </head> 
-
-
 <body>
-
-<!--Header desktop-->
+  <!--Header desktop-->
   <div class="header">
     <div class="top-header">
 
-          <div class="menu-button-container1"><a href="register-adoptante.html"><strong>Regístrate</strong></a></div>
-          <div class="menu-button-container2"><a href="login.html">Accede</a></div>
-
+      <div class="menu-button-container1"><a href="register-adoptante.html"><strong>Regístrate</strong></a></div>
+      <div class="menu-button-container2"><a href="login.html">Accede</a></div>
     </div>
     <div class="bottom-header">
      <a class="logo" href="index.html"></a>
-
-      <nav class="header-buttons">
-          <div><a href="listado.html">Huertos</a></div>
-          <div><a href="contact.html">Contacto</a></div>
-          <div><a href="about.html">Sobre nosotros</a></div>
-            <div><a href="faqs.html">ayuda</a></div>
-      </nav>  
-      <div class="publish-desktop">
-            <a class="btn-header" href="register-agricultor-step1.html">Publica tu huerto</a>   
-      </div>
+     <nav class="header-buttons">
+      <div><a href="listado.html">Huertos</a></div>
+      <div><a href="contact.html">Contacto</a></div>
+      <div><a href="about.html">Sobre nosotros</a></div>
+      <div><a href="faqs.html">ayuda</a></div>
+    </nav>  
+    <div class="publish-desktop">
+      <a class="btn-header" href="register-agricultor-step1.html">Publica tu huerto</a>   
     </div>
   </div>
+</div>
 
 <!--Header mobile-->
 <div class="header-mobile">
@@ -69,7 +64,7 @@
       <li>
         <a href="faqs.html">Ayuda</a>
       </li> 
-     </ul> 
+    </ul> 
   </div>
   <div class="logo-mobile">
   </div>
@@ -78,118 +73,111 @@
 </div>
 <div class="publish-mobile">
   <a class="btn-header" href="register-agricultor-step1.html">Publica tu Huerto</a>     
- </div>
 </div>
-
-<script type="text/javascript">
-  $('.open-menu').click(function(){
-  var menu = $('.mobile-menu-container');
-   menu.show();
-   $('.close-menu').show();
-   $('.open-menu').hide();
-   $('.publish-mobile').hide();
-   $('.top-header-mobile').css( "border-bottom", "none" );
-   $('.logo-mobile').hide();   
-   $('.top-header-mobile').addClass('top-header-mobile-background'); 
-   
- });
-
-
- $('.close-menu').click(function(){
-    var menu = $('.mobile-menu-container');
-   menu.hide();
-   $('.close-menu').hide();
-   $('.open-menu').show();
-   $('.publish-mobile').show();
-   $('.top-header-mobile').css( "border-bottom", "solid 1px rgba(160,131,59, 100)" ); 
-   $('.logo-mobile').show();  
-   $('.top-header-mobile').removeClass('top-header-mobile-background');  
- });
-
- $(window).resize(function(){
-  if($(window).width() > 991)
-  {
-    $('.close-menu').hide();
-    $('.open-menu').hide(); 
-  } else {
-    $('.open-menu').show();     
-  }
- })
-</script>
-
+</div>
 <!--CABECERA-->
 <section>
-		<div class="subheader-container-about">	
-				<h1 class="h1-subheader">Sobre nosotras</h1>
-				<p class="p-subheader">Cansadas de pagar tanto por nuestras cestas de las compras naturales nace Huerting, Huerting es un proyecto colaborativo donde gente interesada pueden recibir beneficios el uno del otro gracias al cultivo ecológico de unos terrenos.</p>
-		</div>
-
-		</section>
-
-<!-- FIN CABECERA-->	
-
+  <div class="subheader-container-about">	
+    <h1 class="h1-subheader">Sobre nosotras</h1>
+    <p class="p-subheader">Cansadas de pagar tanto por nuestras cestas de las compras naturales nace Huerting, Huerting es un proyecto colaborativo donde gente interesada pueden recibir beneficios el uno del otro gracias al cultivo ecológico de unos terrenos.</p>
+  </div>
+</section>
+<!-- //CABECERA-->	
 <section class="about-container">
   <!-- Alina-->  
   <div class="about-description-right">
    <div class="about-foto-alina"></div>
-    <div class="about-description-right-text">
-      <h4 class="h4-about-right">Alina</h4>
-      <p class="p-about-right">Analista de negocio con corazón de diseñadora web. Le encanta viajar a lugares desconocidos, hacer caminatas y disfrutar de los paisajes, fotografiándolos.</p>
-    </div>
+   <div class="about-description-right-text">
+    <h4 class="h4-about-right">Alina</h4>
+    <p class="p-about-right">Analista de negocio con corazón de diseñadora web. Le encanta viajar a lugares desconocidos, hacer caminatas y disfrutar de los paisajes, fotografiándolos.</p>
   </div>
-  <!-- // Alina--> 
-  <!-- Ainhoa--> 
-  <div class="about-description-left">
-   <div class="about-foto-ainhoa"></div>
-   <div class="about-description-left-text">
-    <h4 class="h4-about-left">Ainhoa</h4>
-    <p class="p-about-left">Diseñadora gráfica del País Vasco, disfruta de una buena compañía, leer y aprender cosas nuevas todos los días, le encanta pasar tiempo al aire libre y comer sano.</p>
-  </div>
+</div>
+<!-- // Alina--> 
+<!-- Ainhoa--> 
+<div class="about-description-left">
+ <div class="about-foto-ainhoa"></div>
+ <div class="about-description-left-text">
+  <h4 class="h4-about-left">Ainhoa</h4>
+  <p class="p-about-left">Diseñadora gráfica del País Vasco, disfruta de una buena compañía, leer y aprender cosas nuevas todos los días, le encanta pasar tiempo al aire libre y comer sano.</p>
+</div>
 </div>
 <!-- // Ainhoa--> 
 <!-- Lucy--> 
 <div class="about-description-right">
-   <div class="about-foto-lucia"></div>
-  <div class="about-description-right-text">
-    <h4 class="h4-about-right">Lucía</h4>
-    <p class="p-about-right">De Galicia, es una diseñadora gráfica amante de la natualeza, le encanta cocinar con productos ecológicos, una persona que siempre sabe que decir.</p>
-  </div>
+ <div class="about-foto-lucia"></div>
+ <div class="about-description-right-text">
+  <h4 class="h4-about-right">Lucía</h4>
+  <p class="p-about-right">De Galicia, es una diseñadora gráfica amante de la natualeza, le encanta cocinar con productos ecológicos, una persona que siempre sabe que decir.</p>
+</div>
 </div>
 <!-- // Lucy--> 
 <!-- Diana--> 			
 <div class="about-description-left">
-   <div class="about-foto-diana"></div>
-  <div class="about-description-left-text">
-    <h4 class="h4-about-left">Diana</h4>
-    <div class="p-about-left">
-     <p class="p-about-left">De México, Medios Audiovisuales, siempre en busqueda de nuevas tecnologías, adora la comida orgánica.</p>
-   </div>
+ <div class="about-foto-diana"></div>
+ <div class="about-description-left-text">
+  <h4 class="h4-about-left">Diana</h4>
+  <div class="p-about-left">
+   <p class="p-about-left">De México, Medios Audiovisuales, siempre en busqueda de nuevas tecnologías, adora la comida orgánica.</p>
  </div>
+</div>
 </div>
 <!--//Diana--> 	
 </section>
 <!-- Footer--> 
 <footer>
-  <div class="logo_footer"
-  <a href=""><IMG SRC="img/huerting.svg"></a>
+  <div class="footer-logo">
+    <IMG SRC="img/huerting.svg"></IMG>
   </div>
-<div class="texto_footer">
-  <div class="redes_sociales">
-    <a href="https://www.facebook.com/"><IMG SRC="img/facebook.svg"></a>
-    <a href="https://plus.google.com/"><IMG SRC="img/googlep.svg"></a>
-    <a href="https://www.instagram.com/"><IMG SRC="img/instagram.svg"></a>
-    <a href="https://es.pinterest.com/"><IMG SRC="img/pinterest.svg"></a>
+  <div class="footer-bottom">
+    <div class="footer-social">
+      <a href="https://www.facebook.com/"><IMG SRC="img/facebook.svg"></a>
+      <a href="https://plus.google.com/"><IMG SRC="img/googlep.svg"></a>
+      <a href="https://www.instagram.com/"><IMG SRC="img/instagram.svg"></a>
+      <a href="https://es.pinterest.com/"><IMG SRC="img/pinterest.svg"></a>
+    </div>
+    <div class="footer-text footer-text-nomobile">
+      <p>Aviso legal</p>
+      <p>Copyright 2016 ©Todos los derechos reservados</p>
+    </div>
+    <div class="footer-text">
+      <p>C/Pujades, 118 08005 Barcelona</p>
+      <p>Telf.: +34 93 415 34 74</p>
+    </div>
   </div>
-  <div class="aviso_legal">
-    <a href="">Aviso legal</a>
-    <p>Copyright 2016 ©Todos los derechos reservados</p>
-  </div>
-  <div class="direccion">
-    <p>C/Pujades, 118 08005 Barcelona</p>
-    <p>Telf.: +34 93 415 34 74</p>
-  </div>
-</div>
-</footer> 
+</footer>
 <!-- //Footer--> 
+<!--Scripts-->
+<script type="text/javascript">
+  $('.open-menu').click(function(){
+    var menu = $('.mobile-menu-container');
+    menu.show();
+    $('.close-menu').show();
+    $('.open-menu').hide();
+    $('.publish-mobile').hide();
+    $('.top-header-mobile').css( "border-bottom", "none" );
+    $('.logo-mobile').hide();   
+    $('.top-header-mobile').addClass('top-header-mobile-background'); 
+  });
+  $('.close-menu').click(function(){
+    var menu = $('.mobile-menu-container');
+    menu.hide();
+    $('.close-menu').hide();
+    $('.open-menu').show();
+    $('.publish-mobile').show();
+    $('.top-header-mobile').css( "border-bottom", "solid 1px rgba(160,131,59, 100)" ); 
+    $('.logo-mobile').show();  
+    $('.top-header-mobile').removeClass('top-header-mobile-background');  
+  });
+  $(window).resize(function(){
+    if($(window).width() > 991)
+    {
+      $('.close-menu').hide();
+      $('.open-menu').hide(); 
+    } else {
+      $('.open-menu').show();     
+    }
+  })
+</script>
+<!--//Scripts-->
 </body>
 </html>
