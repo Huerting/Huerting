@@ -610,6 +610,17 @@ footer {
       text-transform: uppercase;
       padding-right: 2vw; } }
 
+.bottom-header-a {
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 2;
+  margin: 0px 10px; }
+
+.bottom-header-a:last-child {
+  margin-right: 50px; }
+
 .product-opinions, .product-opinion, .product-maps {
   margin: 20px 50px;
   max-width: 1300px; }
@@ -802,17 +813,11 @@ ul li a.toggle {
   transition: background .3s ease; }
 
 .contenedor {
+  height: 80vh;
   background-image: url("../img/huerto.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
-  height: 450px; }
-  @media screen and (min-width: 768px) {
-    .contenedor {
-      height: 500px; } }
-  @media screen and (min-width: 1024px) {
-    .contenedor {
-      height: 650px; } }
+  width: 100%; }
 
 .agricultor p {
   width: 15%; }
@@ -1124,6 +1129,30 @@ a {
   @media screen and (min-width: 768px) {
     .btn-form {
       font-size: 1,125rem; } }
+
+.btn-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #955251;
+  color: white;
+  font-size: 0.9rem;
+  border: none;
+  height: 40px;
+  min-width: 200px;
+  width: 100%;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-top: 10px; }
 
 /*LISTADO HUERTOS*/
 .list-page {
