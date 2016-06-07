@@ -40,3 +40,21 @@
 		font-size: 1,125rem;
 	}
 }
+
+.btn-header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: $col-marsala-button;
+	color: white;
+	font-size: 0.9rem;
+	border: none;
+	height: 40px;
+	min-width: 200px;
+	width: 100%;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-top: 10px;
+	@media screen and (min-width: $desktop-width) {
+	}
+}

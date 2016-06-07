@@ -25,57 +25,58 @@
       <div class="menu-button-container2"><a href="login.html">Accede</a></div>
     </div>
     <div class="bottom-header">
-      <a class="logo" href="index.html"></a>
-      <nav class="header-buttons">
-        <div><a href="listado.html">Huertos</a></div>
-        <div><a href="contact.html">Contacto</a></div>
-        <div><a href="about.html">Sobre nosotros</a></div>
-        <div><a href="faqs.html">Ayuda</a></div>
-      </nav>  
-      <div class="publish-desktop">
-        <a class="btn-header" href="register-agricultor-step1.html">Publica tu huerto</a>   
-      </div>
-    </div>
-  </div>
+     <a class="logo" href="index.html"></a>
 
-  <!--Header mobile-->
-  <div class="header-mobile">
-   <div class="top-header-mobile">
-     <div class="open-menu">
-     </div>
-     <div class="mobile-menu-container">
-       <ul>
-        <li>
-          <a href="listado.html">Huertos</a>
-        </li>  
-        <li>
-          <a href="register-adoptante.html">Regístrate</a>
-        </li> 
-        <li>
-          <a href="login.html">Accede</a>
-        </li>  
-        <li>
-          <a href="contact.html">Contacto</a>
-        </li>  
-        <li>
-          <a href="about.html">Sobre nosotros</a>
-        </li> 
-        <li>
-          <a href="faqs.html">Ayuda</a>
-        </li> 
-      </ul> 
+     <nav class="header-buttons">
+      <a class="bottom-header-a" href="listado.html">Huertos</a>
+      <a class="bottom-header-a" href="contact.html">Contacto</a>
+      <a class="bottom-header-a" href="about.html">Sobre nosotros</a>
+      <a class="bottom-header-a" href="faqs.html">ayuda</a>
+    </nav>  
+    <div class="publish-desktop">
+      <a class="btn-header" href="register-agricultor-step1.html">Publica tu huerto</a>   
     </div>
-    <div class="logo-mobile">
-    </div>
-    <div class="close-menu">
-    </div>
-  </div>
-  <div class="publish-mobile">
-    <a class="btn-header" href="register-agricultor-step1.html">Publica tu huerto</a>     
   </div>
 </div>
-
-
+<!--Header mobile-->
+<div class="header-mobile">
+ <div class="top-header-mobile">
+   <div class="open-menu">
+   </div>
+   <div class="mobile-menu-container">
+    <ul>
+      <li>
+        <a href="index.html">Inicio</a>
+      </li>  
+      <li>
+        <a href="listado.html">Huertos</a>
+      </li>  
+      <li>
+        <a href="register-adoptante.html">Regístrate</a>
+      </li> 
+      <li>
+        <a href="login.html">Accede</a>
+      </li>  
+      <li>
+        <a href="contact.html">Contacto</a>
+      </li>  
+      <li>
+        <a href="about.html">Sobre nosotros</a>
+      </li> 
+      <li>
+        <a href="faqs.html">Ayuda</a>
+      </li> 
+     </ul> 
+  </div>
+  <div class="logo-mobile">
+  </div>
+  <div class="close-menu">
+  </div>
+</div>
+<div class="publish-mobile">
+  <a class="btn-header" href="register-agricultor-step1.html">Publica tu Huerto</a>     
+ </div>
+</div>
 <!--Body de pagina de registro paso 3-->
 <div class="register-container">
   <form  id="upload form" class="form" enctype="multipart/form-data" method="post" action="confirmation-agricultor.html">
@@ -127,10 +128,7 @@
     $('.top-header-mobile').css( "border-bottom", "none" );
     $('.logo-mobile').hide();   
     $('.top-header-mobile').addClass('top-header-mobile-background'); 
-
   });
-
-
   $('.close-menu').click(function(){
     var menu = $('.mobile-menu-container');
     menu.hide();
@@ -141,7 +139,6 @@
     $('.logo-mobile').show();  
     $('.top-header-mobile').removeClass('top-header-mobile-background');  
   });
-
   $(window).resize(function(){
     if($(window).width() > 991)
     {
@@ -152,8 +149,6 @@
     }
   })
 </script>
-
-
 <script>
  function chooseFile() {
   $("#fileInput").click();
