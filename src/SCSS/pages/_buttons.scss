@@ -20,3 +20,23 @@
 	border: 2px $col-marsala-button solid;
 	color: $col-marsala-button
 }
+
+.btn-form{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: $col-marsala-button;
+	color: white;
+	font-size: 1rem;
+	border: none;
+	height: 45px;
+	min-width: 300px;
+	width: 100%;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-decoration: none;
+	margin-top: 10px;
+	@media screen and (min-width: $tablet-width) {
+		font-size: 1,125rem;
+	}
+}

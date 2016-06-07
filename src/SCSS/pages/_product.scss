@@ -103,6 +103,12 @@
     }
 }
 
+.product-description p{
+    @media screen and (min-width: $hd-width) {
+    font-size: 1.5rem;
+    }   
+}
+
 //END Product description
 
 // Rent button

@@ -1,18 +1,28 @@
 // Product opinions
 
-.product-opinions, .product-opinion{
-    margin: 20px;
+.product-opinions, .product-opinion, .product-maps{
+    margin: 20px 50px;
+    max-width: 1300px;
+    @media screen and (min-width: 1500px) {
+    margin: 20px 50px;
+    }
 }
 
 .product-opinion{
-    margin: 20px; 
+    margin: 0px;
     display: flex;
+    flex-direction:column;
+    @media screen and (min-width: $tablet-width) {
+    margin: 20px; 
     flex-direction:row;
+    }
 }
 
 .product-opinion-text-container{
-    margin: 0 20px; 
-
+    margin: 0px; 
+    @media screen and (min-width: $tablet-width) {
+    margin: 0px 20px; 
+    }  
 }
 
 .product-opinion-img-1, .product-opinion-img-2{

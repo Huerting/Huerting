@@ -7,3 +7,34 @@ iframe{
 	@media screen and (min-width: $desktop-width) {
 	}
 }
+
+.product-maps{
+	display: flex;
+	justify-content:center;
+	@media screen and (min-width: $tablet-width) {
+	}
+	@media screen and (min-width: $desktop-width) {
+	justify-content:flex-start;
+	}
+}
+
+.product-maps iframe{
+	top: 0;
+	left: 0;
+	width: 80% !important;
+	height: 80% !important;
+	@media screen and (min-width: $tablet-width) {
+	width: 80% !important;
+	height: 80% !important;
+	}
+	@media screen and (min-width: $desktop-width) {
+	width: 40% !important;
+	height: 100% !important;
+	}
+}
+
+.google-maps {
+        padding-bottom: 75%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+}

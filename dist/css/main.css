@@ -236,7 +236,8 @@ footer {
       display: none; } }
 
 .menu-background {
-  background-color: #f5f2eb; }
+  background-color: #f5f2eb;
+  border-bottom: 1px #955251 solid; }
 
 .logo-mobile {
   -webkit-box-flex: 1;
@@ -596,34 +597,51 @@ footer {
         -ms-flex-pack: start;
             justify-content: flex-start; } }
 
-@media screen and (min-width: 768px) {
-  .menu-button-container2 .bottom-header .header-buttons a {
-    color: #000000;
-    font-weight: 500;
-    font-size: 1rem;
-    max-width: 20px;
-    line-height: 2.2;
-    text-decoration: none;
-    text-transform: uppercase;
-    padding-right: 2vw; } }
+.menu-button-container2 .bottom-header .header-buttons a {
+  font-weight: 700; }
+  @media screen and (min-width: 768px) {
+    .menu-button-container2 .bottom-header .header-buttons a {
+      color: #000000;
+      font-weight: 500;
+      font-size: 1rem;
+      max-width: 20px;
+      line-height: 2.2;
+      text-decoration: none;
+      text-transform: uppercase;
+      padding-right: 2vw; } }
 
-.product-opinions, .product-opinion {
-  margin: 20px; }
+.product-opinions, .product-opinion, .product-maps {
+  margin: 20px 50px;
+  max-width: 1300px; }
+  @media screen and (min-width: 1500px) {
+    .product-opinions, .product-opinion, .product-maps {
+      margin: 20px 50px; } }
 
 .product-opinion {
-  margin: 20px;
+  margin: 0px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-      -ms-flex-direction: row;
-          flex-direction: row; }
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  @media screen and (min-width: 768px) {
+    .product-opinion {
+      margin: 20px;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: row;
+          -ms-flex-direction: row;
+              flex-direction: row; } }
 
 .product-opinion-text-container {
-  margin: 0 20px; }
+  margin: 0px; }
+  @media screen and (min-width: 768px) {
+    .product-opinion-text-container {
+      margin: 0px 20px; } }
 
 .product-opinion-img-1, .product-opinion-img-2 {
   background-repeat: no-repeat;
@@ -733,6 +751,9 @@ footer {
 @media screen and (min-width: 768px) {
   .accordion {
     font-size: 18pt; } }
+
+.accordion a {
+  font-size: 1rem; }
 
 /*------A PARTIR DE AQUI PERTENECE AL JAVASCRIP---------*/
 /* esto es el acordeón en java.*/
@@ -960,10 +981,10 @@ ul li a.toggle {
   -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
-          align-items: center; }
+          align-items: center;
+  color: white; }
   @media screen and (min-width: 768px) {
     .home {
-      color: white;
       font-size: 1.5rem; } }
   @media screen and (min-width: 1024px) {
     .home {
@@ -971,8 +992,7 @@ ul li a.toggle {
 
 .home h1 {
   font-size: 1.6rem;
-  color: white;
-  margin-top: 10rem; }
+  color: white; }
   @media screen and (min-width: 768px) {
     .home h1 {
       font-size: 3.0rem; } }
@@ -994,6 +1014,9 @@ ul li a.toggle {
     .home h2 {
       font-size: 1.5rem;
       margin-bottom: 20px; } }
+
+.home h5 {
+  text-align: center; }
 
 .margin {
   padding-bottom: 100px; }
@@ -1073,6 +1096,34 @@ a {
   background-color: #ffffff;
   border: 2px #955251 solid;
   color: #955251; }
+
+.btn-form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #955251;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  height: 45px;
+  min-width: 300px;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+  margin-top: 10px; }
+  @media screen and (min-width: 768px) {
+    .btn-form {
+      font-size: 1,125rem; } }
 
 /*LISTADO HUERTOS*/
 .list-page {
@@ -1441,6 +1492,9 @@ a {
     @media screen and (min-width: 1024px) {
       .product-description-price {
         text-align: center; } }
+  @media screen and (min-width: 1500px) {
+    .product-description .product-description p {
+      font-size: 1.5rem; } }
   .product-description .product-btn-active {
     background-color: #955251;
     color: white;
@@ -1500,6 +1554,7 @@ a {
       margin-left: 15%; } }
   @media screen and (min-width: 1024px) {
     .about-container {
+      margin-top: 70px;
       margin-right: 10%;
       margin-left: 20%; } }
 
@@ -1731,6 +1786,41 @@ iframe {
       padding: 0px;
       margin: 30 100px; } }
 
+.product-maps {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  @media screen and (min-width: 1024px) {
+    .product-maps {
+      -webkit-box-pack: start;
+      -webkit-justify-content: flex-start;
+          -ms-flex-pack: start;
+              justify-content: flex-start; } }
+
+.product-maps iframe {
+  top: 0;
+  left: 0;
+  width: 80% !important;
+  height: 80% !important; }
+  @media screen and (min-width: 768px) {
+    .product-maps iframe {
+      width: 80% !important;
+      height: 80% !important; } }
+  @media screen and (min-width: 1024px) {
+    .product-maps iframe {
+      width: 40% !important;
+      height: 100% !important; } }
+
+.google-maps {
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden; }
+
 .subheader-container-faq {
   background-image: url("../img/cabeceralimones.jpg"); }
 
@@ -1924,34 +2014,6 @@ label {
   margin: 10px;
   margin-left: 0px; }
 
-.btn-form {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #955251;
-  color: white;
-  font-size: 1rem;
-  border: none;
-  height: 45px;
-  min-width: 300px;
-  width: 100%;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  text-decoration: none;
-  margin-top: 10px; }
-  @media screen and (min-width: 768px) {
-    .btn-form {
-      font-size: 1,125rem; } }
-
 .form-checkbox {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1974,7 +2036,8 @@ textarea {
   font-size: 1.2rem; }
   @media screen and (min-width: 768px) {
     .h2-gold {
-      font-size: 1.5rem; } }
+      font-size: 1.5rem;
+      margin-bottom: 20px; } }
   @media screen and (min-width: 1024px) {
     .h2-gold {
       font-size: 1.8rem; } }

@@ -29,6 +29,7 @@
 
 .menu-background{
 	background-color: $col-gold-bg;
+	border-bottom: 1px $col-marsala-button solid;
 }
 
 .logo-mobile{
@@ -273,6 +274,7 @@
 }
 
 .bottom-header .header-buttons a{
+	font-weight: 700;
 	@media screen and (min-width: $tablet-width) {
 		color: #000000;
 		font-weight: 500;
