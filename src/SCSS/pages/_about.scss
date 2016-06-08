@@ -13,6 +13,13 @@
 	}
 }
 
+.about-project{
+	margin-bottom: 50px;	
+    @media screen and (min-width: $desktop-width) {
+	margin-bottom: 100px;
+    }
+}
+
 //Contenedores de cada descripcion, con alineacion a la derecha o a la izquierda
 .about-description-right, .about-description-left{
 	display: flex;

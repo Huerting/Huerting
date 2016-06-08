@@ -74,3 +74,6 @@ ul li a.toggle {
   transition: background .3s ease;
 }
 
+.accordion > li > .toggle {
+  color: $col-marsala-text;
+}

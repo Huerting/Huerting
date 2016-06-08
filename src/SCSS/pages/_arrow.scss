@@ -3,7 +3,7 @@
 
 	.demo a {
 		position: absolute;
-		bottom: 20px;
+		bottom: 5px;
 		left: 50%;
 		z-index: 2;
 		display: inline-block;
@@ -23,12 +23,12 @@
 	}
 	#section05 a span {
 		position: absolute;
-		top: 0;
+		top: -100px;
 		left: 50%;
 		width: 30px;
 		height: 30px;
 		margin-left: -12px;
-		margin-top: 50px;
+		margin-top: 10px;
 		border-left: 4px solid #fff;
 		border-bottom: 4px solid #fff;
 		-webkit-transform: rotate(-45deg);

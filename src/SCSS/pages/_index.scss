@@ -6,7 +6,8 @@
 	width: 100%;
 	@media screen and (min-width: $tablet-width) {
 	}
-	@media screen and (min-width: $desktop-width) {
+	@media screen and (min-width: $hd-width) {
+		height: 85vh;
 	}
 }
 

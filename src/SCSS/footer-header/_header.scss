@@ -22,6 +22,7 @@
 	flex-direction: column;
 	justify-content: space-between;
 	margin: 0px;
+	border-bottom: 2px solid $col-gold-text;
 	@media screen and (min-width: $desktop-width) {
 		display: none;
 	}
@@ -33,6 +34,7 @@
 }
 
 .logo-mobile{
+	display: block;
 	flex-grow: 1 ;
 	background-image: url('../img/Logo_XS.png');
 	background-repeat: no-repeat;

@@ -36,6 +36,29 @@
 	letter-spacing: 1px;
 	text-decoration: none;
 	margin-top: 10px;
+	padding: 0px;
+	@media screen and (min-width: $tablet-width) {
+		font-size: 1,125rem;
+	}
+}
+
+.btn-forms{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: $col-marsala-button;
+	color: white;
+	font-size: 1rem;
+	border: none;
+	height: 45px;
+	width: 100%;
+	max-width: 500px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-decoration: none;
+	margin: 0px;
+	margin-top: 10px;
+	padding: 0px;
 	@media screen and (min-width: $tablet-width) {
 		font-size: 1,125rem;
 	}
@@ -58,3 +81,27 @@
 	@media screen and (min-width: $desktop-width) {
 	}
 }
+
+
+	.btn-header{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-color: #955251;
+		color: white;
+		font-family: 'Raleway';
+		font-size: 0.9rem;
+		border: none;
+		height: 40px;
+		min-width: 200px;
+		width: 100%;
+		text-transform: uppercase;
+		text-decoration: none;
+		margin-top: 10px;
+	}
+
+		.btn-header-mobile{
+		background-color: white;
+		color: $col-marsala-button;
+		border: 2px $col-marsala-button solid;
+	}

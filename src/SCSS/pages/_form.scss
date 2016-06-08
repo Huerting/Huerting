@@ -10,12 +10,12 @@ p{
 	font-style: italic;
 }
 
-form {
+.form {
 	padding: 20px; 
 	max-width: 500px;
 	margin: 0 auto;
 }
-form div {
+.form div {
 	padding: 5px;
 }
 label {
@@ -32,6 +32,10 @@ textarea {
 	border: 1px solid #999;
 	padding: 5px;
 	width: 100%;
+}
+
+.form-center{
+	justify-content:center;
 }
 
 
@@ -82,7 +86,7 @@ input:valid {
 }
 
 
-form{
+.form{
 	display: flex;
 	flex-direction: column;
 	margin: 20px;
