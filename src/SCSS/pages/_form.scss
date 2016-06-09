@@ -55,6 +55,7 @@ input:valid {
 .register-breadcrumb a{
 	text-decoration: none;
 	color: black;
+	margin-bottom: 30px;
 
 }
 
@@ -134,8 +135,10 @@ label{
 
 .checkbox-style{
 	padding: 0px;
-	margin: 10px;
+	margin: 0px;
 	margin-left: 0px;
+	display: flex;
+	align-items:center;
 }
 
 
