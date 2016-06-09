@@ -230,7 +230,8 @@ footer {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin: 0px; }
+  margin: 0px;
+  border-bottom: 2px solid #AC9251; }
   @media screen and (min-width: 1024px) {
     .header-mobile {
       display: none; } }
@@ -240,6 +241,7 @@ footer {
   border-bottom: 1px #955251 solid; }
 
 .logo-mobile {
+  display: block;
   -webkit-box-flex: 1;
   -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
@@ -688,7 +690,7 @@ footer {
 
 .demo a {
   position: absolute;
-  bottom: 20px;
+  bottom: 5px;
   left: 50%;
   z-index: 2;
   display: inline-block;
@@ -709,12 +711,12 @@ footer {
 
 #section05 a span {
   position: absolute;
-  top: 0;
+  top: -100px;
   left: 50%;
   width: 30px;
   height: 30px;
   margin-left: -12px;
-  margin-top: 50px;
+  margin-top: 10px;
   border-left: 4px solid #fff;
   border-bottom: 4px solid #fff;
   -webkit-transform: rotate(-45deg);
@@ -812,12 +814,18 @@ ul li a.toggle {
   -webkit-transition: background .3s ease;
   transition: background .3s ease; }
 
+.accordion > li > .toggle {
+  color: #9a4846; }
+
 .contenedor {
   height: 80vh;
   background-image: url("../img/huerto.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%; }
+  @media screen and (min-width: 1500px) {
+    .contenedor {
+      height: 85vh; } }
 
 .agricultor p {
   width: 15%; }
@@ -1125,9 +1133,40 @@ a {
   text-transform: uppercase;
   letter-spacing: 1px;
   text-decoration: none;
-  margin-top: 10px; }
+  margin-top: 10px;
+  padding: 0px; }
   @media screen and (min-width: 768px) {
     .btn-form {
+      font-size: 1,125rem; } }
+
+.btn-forms {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #955251;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  height: 45px;
+  width: 100%;
+  max-width: 500px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+  margin: 0px;
+  margin-top: 10px;
+  padding: 0px; }
+  @media screen and (min-width: 768px) {
+    .btn-forms {
       font-size: 1,125rem; } }
 
 .btn-header {
@@ -1153,6 +1192,36 @@ a {
   text-transform: uppercase;
   text-decoration: none;
   margin-top: 10px; }
+
+.btn-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #955251;
+  color: white;
+  font-family: 'Raleway';
+  font-size: 0.9rem;
+  border: none;
+  height: 40px;
+  min-width: 200px;
+  width: 100%;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-top: 10px; }
+
+.btn-header-mobile {
+  background-color: white;
+  color: #955251;
+  border: 2px #955251 solid; }
 
 /*LISTADO HUERTOS*/
 .list-page {
@@ -1290,9 +1359,6 @@ a {
       margin: 0px;
       border-bottom: none;
       height: 120px; } }
-
-.ad-headline:last-child {
-  border-bottom: none; }
 
 .ad-where {
   display: -webkit-box;
@@ -1586,6 +1652,12 @@ a {
       margin-top: 70px;
       margin-right: 10%;
       margin-left: 20%; } }
+
+.about-project {
+  margin-bottom: 50px; }
+  @media screen and (min-width: 1024px) {
+    .about-project {
+      margin-bottom: 100px; } }
 
 .about-description-right, .about-description-left {
   display: -webkit-box;
@@ -1912,12 +1984,12 @@ p {
   color: black;
   font-style: italic; }
 
-form {
+.form {
   padding: 20px;
   max-width: 500px;
   margin: 0 auto; }
 
-form div {
+.form div {
   padding: 5px; }
 
 label {
@@ -1933,6 +2005,12 @@ textarea {
   border: 1px solid #999;
   padding: 5px;
   width: 100%; }
+
+.form-center {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
 
 /*REGISTRO*/
 .register-breadcrumb {
@@ -1988,7 +2066,7 @@ textarea {
     .register-container {
       background: #f5f2eb url("../img/pattern-1.png"); } }
 
-form {
+.form {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2002,13 +2080,13 @@ form {
   background-color: white;
   padding-bottom: 50px; }
   @media screen and (min-width: 768px) {
-    form {
+    .form {
       margin-top: 100px;
       padding: 50px 100px;
       width: 50%;
       margin-bottom: 180px; } }
   @media screen and (min-width: 1024px) {
-    form {
+    .form {
       margin-bottom: 100px; } }
 
 label {
